@@ -807,15 +807,22 @@
        <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <form class="contact-form" id="contactForm">
-                    <input type="text" id="name" placeholder="Your Name" required>
-                    <div class="form-error" id="nameError">Please enter your name</div>
-                    <input type="email" id="email" placeholder="Your Email" required>
-                    <div class="form-error" id="emailError">Please enter a valid email</div>
-                    <textarea id="message" placeholder="Your Message" required></textarea>
-                    <div class="form-error" id="messageError">Please enter your message</div>
-                    <button type="submit">Send Message</button>
-                </form>
+              <form id="popupForm" class="">
+    <input type="text" id="popupName" placeholder="Your Name" required>
+    <div class="form-error" id="popupNameError">Please enter your name</div>
+
+    <input type="email" id="popupEmail" placeholder="Your Email" required>
+    <div class="form-error" id="popupEmailError">Please enter a valid email</div>
+
+    <input type="tel" id="popupWhatsapp" placeholder="Your WhatsApp Number" required>
+    <div class="form-error" id="popupWhatsappError">Please enter your WhatsApp number</div>
+
+    <textarea id="popupMessage" placeholder="Your Message" required></textarea>
+    <div class="form-error" id="popupMessageError">Please enter your message</div>
+
+    <button type="submit">Send Enquiry</button>
+</form>
+
             </div>
            
         </div>
